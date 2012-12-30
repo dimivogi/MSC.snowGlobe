@@ -1,0 +1,297 @@
+##################################################################################################################
+##################################################################################################################
+#
+#							Globe Application Configuration File
+#
+##################################################################################################################
+##################################################################################################################
+
+##################################################################################################################
+##################################################################################################################
+#									Input Guidelines
+##################################################################################################################
+
+#	Vector input: (x,y,z) . Parenthesis and commas included.
+#	Colour input: (r,g,b,a) . Parenthesis and commas included.
+#	String input: abcd . Where a,b,c,d are characters with no spaces inbetween or special characters like ' or "
+#	Percent range is from 0...1000, default value is a value greater that 1000
+
+
+#	Each line adds a single material. For multiple materials, add a new line for each material (keyword included) , 
+#	changing the Percent value to the desired percentage.
+#	The values with the suffix Colour are Colour values. Shininess is a Float value.
+
+#leaf_spring_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#leaf_autumn_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#fire_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#smoke_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#snow_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#grass_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#lightning_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#storm_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#rain_material= Percent AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+
+
+#	Each line adds a single scale. For multiple scales, add a new line for each scale (keyword included) , 
+#	changing the Percent value to the desired percentage.
+#	Scale is a Float value.
+
+#leaf_spring_scale= Percent Scale
+#leaf_autumn_scale= Percent Scale
+#fire_scale= Percent Scale
+#smoke_scale= Percent Scale
+#snow_scale= Percent Scale
+#grass_scale= Percent Scale
+#lightning_scale= Percent Scale
+#storm_scale= Percent Scale
+#rain_scale= Percent Scale
+
+
+#	Each line adds a single plane. For multiple planes, add a new line for each plane (keyword included).
+
+#roof_plane= Vector Vector Vector
+#snow_mount_plane= Vector Vector Vector
+
+
+
+#globe_position= Vector
+#terrain_position= Vector
+#pool_position= Vector
+#tree_position= Vector
+#house_position= Vector
+#snow_mounts_position= Vector
+#fire_position= Vector
+#smoke_position= Vector
+#snow_position0= Vector
+#snow_position1= Vector
+#snow_position2= Vector
+#snow_position3= Vector
+#snow_position4= Vector
+#snow_position5= Vector
+#snow_position6= Vector
+#snow_position7= Vector
+#grass_position= Vector
+#lightning_position= Vector
+#storm_position= Vector
+#rain_position0= Vector
+#rain_position1= Vector
+#rain_position2= Vector
+#rain_position3= Vector
+#rain_position4= Vector
+#rain_position5= Vector
+#rain_position6= Vector
+#rain_position7= Vector
+
+
+#fire_speed= Vector
+#smoke_speed= Vector
+#snow_speed= Vector
+#lightning_speed= Vector
+#storm_speed= Vector
+#rain_speed= Vector
+#leaf_acceleration= Vector
+#fire_acceleration= Vector
+#smoke_acceleration= Vector
+#snow_acceleration= Vector
+#lightning_acceleration= Vector
+#storm_acceleration= Vector
+#rain_acceleration= Vector
+
+
+#	The values with the suffix Colour are Colour values. Shininess is a Float value.
+
+#globe_material= AmbientColour DiffuseColour SpecularColour  EmmissionColour Shininess
+#terrain_material= AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#pool_material= AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#tree_material= AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+#snow_mount_material= AmbientColour DiffuseColour SpecularColour EmmissionColour Shininess
+
+
+#globe_colour= Colour
+#terrain_top_colour= Colour
+#terrain_bottom_colour= Colour
+#pool_colour= Colour
+#tree_colour= Colour
+#snow_mount_colour= Colour
+
+
+#light_position0= Vector
+#light_position1= Vector
+#light_position2= Vector
+#light_position3= Vector
+#light_direction0= Vector
+#light_direction1= Vector
+#light_direction2= Vector
+#light_direction3= Vector
+
+#	The values with the suffix Colour are Colour values. Shininess is a Float value.
+
+#light_colour0= AmbientColour DiffuseColour SpecularColour
+#light_colour1= AmbientColour DiffuseColour SpecularColour
+#light_colour2= AmbientColour DiffuseColour SpecularColour
+#light_colour3= AmbientColour DiffuseColour SpecularColour
+#sun_colour= AmbientColour DiffuseColour SpecularColour
+#moon_colour= AmbientColour DiffuseColour SpecularColour
+
+
+#house_model_filename= String
+#terrain_texture_filename= String
+#pool_texture_filename= String
+#tree_bark_texture_filename= String
+#tree_leaf_texture_filename= String
+#snow_mounts_texture_filename= String
+#smoke_texture_filename= String
+#snow_texture_filename= String
+#grass_texture_filename= String
+#lightning_texture_filename= String
+#storm_texture_filename= String
+#rain_texture_filename= String
+#vertex_shader_filename= String
+#fragment_shader_filename= String
+
+
+#near=	Float
+#far= Float
+#field_of_view= Float
+#camera_step= Float
+#camera_distance= Float
+#light_cuttoff0= Float
+#light_cuttoff1= Float
+#light_cuttoff2= Float
+#light_cuttoff3= Float
+#light_exponent0= Float
+#light_exponent1= Float
+#light_exponent2= Float
+#light_exponent3= Float
+#current_season= Unsigned Integer 0..3
+#sun_distance= Float
+#day_cycle_time= Unsigned Integer
+#season_cycle_time= Unsigned Integer 1..100
+#tree_levels= Unsigned Integer
+#tree_branching_factor= Unsigned Integer
+#tree_width_radius= Float
+#tree_height= Float
+#tree_branch_stacks= Unsigned Integer
+#tree_branch_slices= Unsigned Integer
+#tree_leaves_size= Float
+#tree_leaves_mass= Float
+#globe_stacks= Unsigned Integer
+#globe_slices= Unsigned Integer
+#globe_radius= Float
+#terrain_radius= Float
+#terrain_height=  Float
+#terrain_stacks= Unsigned Integer
+#terrain_slices= Unsigned Integer
+#pool_a_radius= Float
+#pool_b_radius= Float
+#pool_height= Float
+#pool_stacks= Unsigned Integer
+#pool_slices= Unsigned Integer
+#pool_height_stacks= Unsigned Integer
+#snow_mount_height=	Float
+#light_sphere_radius=	Float
+#light_sphere_stacks=	Unsigned Integer
+#light_sphere_slices=	Unsigned Integer
+#fire_density= Unsigned Integer
+#smoke_density= Unsigned Integer
+#snow_density= Unsigned Integer
+#grass_density= Unsigned Integer
+#lightning_density= Unsigned Integer
+#storm_density= Unsigned Integer
+#rain_density= Unsigned Integer
+#fire_size= Float
+#fire_mass= Float
+#fire_lifespan= Float
+#fire_delay= Float
+#fire_spread= Float 0..360
+#smoke_size= Float
+#smoke_mass= Float
+#smoke_lifespan= Float
+#smoke_delay= Float
+#smoke_spread= Float 0..360
+#snow_size= Float
+#snow_mass= Float
+#snow_lifespan= Float
+#snow_delay= Float
+#snow_spread= Float 0..360
+#grass_size= Float
+#grass_mass= Float
+#grass_delay= Float
+#grass_spread= 0..360 **NOT USED**
+#lightning_size= Float
+#lightning_mass= Float **NOT USED**
+#lightning_lifespan= Float
+#lightning_delay= Float
+#lightning_spread= Float **NOT USED**
+#storm_size= Float
+#storm_mass= Float
+#storm_lifespan= Float
+#storm_delay= Float
+#storm_radius= Float
+#rain_size= Float
+#rain_mass= Float
+#rain_lifespan= Float
+#rain_delay= Float
+#rain_spread= Float 0..360
+#house_rotation= Float 0..360
+#house_scale= Float
+#render_model= Unsigned Integer 0..4
+
+##################################################################################################################
+##################################################################################################################
+
+vertex_shader_filename=			main_shader.vert
+fragment_shader_filename=		main_shader.frag
+
+
+house_model_filename=			scheune.3ds
+terrain_texture_filename=		Seamless_grass_texture_by_hhh316.jpg
+pool_texture_filename=			Water_Texture_by_Jshei.jpg
+tree_bark_texture_filename=		Bark_Texture_II_by_Neriah_stock.jpg
+tree_leaf_texture_filename=		Green_Leaf_Texture_by_SpiralGraphic.tga
+snow_mounts_texture_filename=	snow.jpg
+smoke_texture_filename=			Smoke.tga
+snow_texture_filename=			Purple_Snowflake.tga
+grass_texture_filename=			billboard_grass.tga
+lightning_texture_filename=		lightning.tga
+storm_texture_filename=			Smoke.tga
+rain_texture_filename=			blue-water-droplet-icon.tga
+
+terrain_material=				(0.25,0.25,0.25,0.75)	(0.2,0.30,0.1,1.0)	(0.0,0.0,0.0,0.0)	(0.0,0.0,0.0,0.0)	0.0
+
+
+light_direction0=				(-0.25,-0.5,0.0)		
+light_direction1=				(0.0,-0.5,0.25)
+light_direction2=				(0.25,-0.5,0.25)
+light_direction3=				(0.0,-0.5,-0.25)
+
+light_colour0=					(0.25,0.25,0.25,0.25)	(0.75,0.75,0.05,1.0)	(1.00,1.00,1.00,1.00)
+light_colour1=					(0.25,0.25,0.25,0.25)	(0.55,0.35,0.05,1.0)	(1.00,1.00,1.00,1.00)
+light_colour2=					(0.25,0.25,0.25,0.25)	(0.75,0.15,0.05,1.0)	(1.00,1.00,1.00,1.00)
+light_colour3=					(0.25,0.25,0.25,0.25)	(0.75,0.75,0.75,1.0)	(1.00,1.00,1.00,1.00)
+sun_colour=						(0.75,0.75,0.75,1.00)	(1.00,1.00,0.60,1.0)	(1.00,1.00,1.00,1.00)
+moon_colour=					(0.35,0.35,0.35,0.45)	(0.55,0.55,0.55,1.0)	(0.75,0.75,0.75,1.00)
+
+
+light_exponent0=				9
+light_exponent1=				9
+light_exponent2=				9
+light_exponent3=				9
+
+
+tree_levels=					4
+tree_branching_factor=			7
+
+fire_density=					500
+smoke_density=					50
+snow_density=					8800
+grass_density=					1000
+lightning_density=				1000
+storm_density=					500
+rain_density=					8800
+
+day_cycle_time=					10
+season_cycle_time=				4
+
+
+snow_mount_plane=				(0.0,0.0,0.0)	(0.0,0.0,0.0)	(0.0,0.0,0.0)
